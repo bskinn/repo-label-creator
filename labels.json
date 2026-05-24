@@ -3,23 +3,9 @@
     "color": "5319E7",
     "labels": [
       {
-        "icon": "stethoscope",
-        "name": "tests",
-        "text": "Focused on the test suite"
-      },
-      {
-        "icon": "page_facing_up",
-        "name": "docs"
-      },
-      {
-        "icon": "brain",
-        "name": "meta",
-        "text": "Dealing with the project itself"
-      },
-      {
-        "icon": "bridge_at_night",
-        "name": "infra",
-        "text": "Developer tooling"
+        "icon": "robot",
+        "name": "api",
+        "text": "Library interface that others will use"
       },
       {
         "icon": "gear",
@@ -27,19 +13,33 @@
         "text": "Automated per-commit/per-PR tooling"
       },
       {
-        "icon": "robot",
-        "name": "api",
-        "text": "Library interface that others will use"
-      },
-      {
         "icon": "computer",
         "name": "cli",
         "text": "Command-line interface that others will use"
       },
       {
+        "icon": "page_facing_up",
+        "name": "docs"
+      },
+      {
+        "icon": "bridge_at_night",
+        "name": "infra",
+        "text": "Developer tooling"
+      },
+      {
         "icon": "slot_machine",
         "name": "internals",
         "text": "The inner workings"
+      },
+      {
+        "icon": "brain",
+        "name": "meta",
+        "text": "Dealing with the project itself"
+      },
+      {
+        "icon": "stethoscope",
+        "name": "tests",
+        "text": "Focused on the test suite"
       }
     ],
     "name": "area"
@@ -130,6 +130,14 @@
     "color": "EB6420",
     "labels": [
       {
+        "icon": "robot",
+        "name": "dependabot"
+      },
+      {
+        "icon": "construction_worker",
+        "name": "draft"
+      },
+      {
         "icon": "+1",
         "name": "merge ready"
       },
@@ -144,6 +152,10 @@
       {
         "icon": "heavy_check_mark",
         "name": "needs tests"
+      },
+      {
+        "icon": "rocker",
+        "name": "release"
       }
     ],
     "name": "pr"
