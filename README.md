@@ -6,8 +6,9 @@
 
 Get the labels you need in a few steps:
 
-1. Configure a GitHub personal access token with repo permissions & set it up in
-   your terminal as the `GITHUB_PAT` environment variable.
+1. Configure a fine-grained GitHub personal access token with write permissions
+   on at least one of Issues or Pull Requests & set it up in your terminal as
+   the `GITHUB_PAT` environment variable.
 2. Clone this repo.
 3. Create a virtual environment (Python 3.11+), activate, and
    `python -m pip install -r requirements.txt`.
@@ -183,12 +184,12 @@ class Label:
 @dataclass
 class Category:
     name: str
-    color: str  # Must be RGB hex without the leading '#'
+    color: str  # Must be 6-digit RGB hex without the leading '#'
     labels: list[Label]
 
 @dataclass
 class LabelsJSON:
-   (root): list[Category]
+   groups: list[Category]
 ```
 
 ### Internals
