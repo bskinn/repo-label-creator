@@ -136,6 +136,10 @@
           "name": "dependabot"
         },
         {
+          "icon": "stop_sign",
+          "name": "DO NOT MERGE"
+        },
+        {
           "icon": "construction_worker",
           "name": "draft"
         },
@@ -152,11 +156,15 @@
           "name": "needs docs"
         },
         {
+          "icon": "eyes",
+          "name": "needs review"
+        },
+        {
           "icon": "heavy_check_mark",
           "name": "needs tests"
         },
         {
-          "icon": "rocker",
+          "icon": "rocket",
           "name": "release"
         }
       ],
@@ -185,6 +193,10 @@
           "icon": "sparkles",
           "name": "enhancement",
           "text": "Something to add"
+        },
+        {
+          "icon": "information_source",
+          "name": "info"
         },
         {
           "icon": "wrench",
