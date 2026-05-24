@@ -1,5 +1,5 @@
 colorama
-flake8>=3.7,<5
+flake8
 flake8-2020
 flake8-bandit
 flake8-black

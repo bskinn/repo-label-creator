@@ -86,7 +86,9 @@ def main():
     # Adding the new labels
     if not args[PRS_DEL_ONLY]:
         print("Adding the new labels...\n")
-        labelsets = json.loads(Path("labels.json").read_text(encoding="utf-8"))
+        labelsets = json.loads(Path("labels.json").read_text(encoding="utf-8"))[
+            "groups"
+        ]
 
         for labelset in labelsets:
             set_name = labelset["name"]

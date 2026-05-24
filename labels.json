@@ -1,193 +1,220 @@
-[
+{
+  "$schema": "schema.json",
+  "groups": [
     {
-        "color": "5319E7",
-        "labels": [
-            {
-                "icon": "stethoscope",
-                "name": "tests",
-                "text": "Focused on the test suite"
-            },
-            {
-                "icon": "page_facing_up",
-                "name": "docs"
-            },
-            {
-                "icon": "brain",
-                "name": "meta",
-                "text": "Dealing with the project itself"
-            },
-            {
-                "icon": "bridge_at_night",
-                "name": "infra",
-                "text": "Developer tooling"
-            },
-            {
-                "icon": "gear",
-                "name": "ci",
-                "text": "Automated per-commit/per-PR tooling"
-            },
-            {
-                "icon": "robot",
-                "name": "api",
-                "text": "Library interface that others will use"
-            },
-            {
-                "icon": "computer",
-                "name": "cli",
-                "text": "Command-line interface that others will use"
-            },
-            {
-                "icon": "slot_machine",
-                "name": "internals",
-                "text": "The inner workings"
-            }
-        ],
-        "name": "area"
+      "color": "5319E7",
+      "labels": [
+        {
+          "icon": "robot",
+          "name": "api",
+          "text": "Library interface that others will use"
+        },
+        {
+          "icon": "gear",
+          "name": "ci",
+          "text": "Automated per-commit/per-PR tooling"
+        },
+        {
+          "icon": "computer",
+          "name": "cli",
+          "text": "Command-line interface that others will use"
+        },
+        {
+          "icon": "page_facing_up",
+          "name": "docs"
+        },
+        {
+          "icon": "bridge_at_night",
+          "name": "infra",
+          "text": "Developer tooling"
+        },
+        {
+          "icon": "slot_machine",
+          "name": "internals",
+          "text": "The inner workings"
+        },
+        {
+          "icon": "brain",
+          "name": "meta",
+          "text": "Dealing with the project itself"
+        },
+        {
+          "icon": "stethoscope",
+          "name": "tests",
+          "text": "Focused on the test suite"
+        }
+      ],
+      "name": "area"
     },
     {
-        "color": "B60205",
-        "labels": [
-            {
-                "icon": "cloud",
-                "name": "explanation",
-                "text": "Diátaxis: understanding-oriented"
-            },
-            {
-                "icon": "building_construction",
-                "name": "howto",
-                "text": "Diátaxis: task-oriented"
-            },
-            {
-                "icon": "books",
-                "name": "reference",
-                "text": "Diátaxis: information-oriented"
-            },
-            {
-                "icon": "teacher",
-                "name": "tutorial",
-                "text": "Diátaxis: learning-oriented"
-            }
-        ],
-        "name": "docs"
+      "color": "B60205",
+      "labels": [
+        {
+          "icon": "cloud",
+          "name": "explanation",
+          "text": "Diátaxis: understanding-oriented"
+        },
+        {
+          "icon": "building_construction",
+          "name": "howto",
+          "text": "Diátaxis: task-oriented"
+        },
+        {
+          "icon": "books",
+          "name": "reference",
+          "text": "Diátaxis: information-oriented"
+        },
+        {
+          "icon": "teacher",
+          "name": "tutorial",
+          "text": "Diátaxis: learning-oriented"
+        }
+      ],
+      "name": "docs"
     },
     {
-        "color": "BFDADC",
-        "labels": [
-            {
-                "icon": "gemini",
-                "name": "duplicate"
-            },
-            {
-                "icon": "hourglass_flowing_sand",
-                "name": "future",
-                "text": "Planned, but not for a specific release"
-            },
-            {
-                "icon": "no_entry_sign",
-                "name": "invalid",
-                "text": "We can't act on this issue, something's wrong"
-            },
-            {
-                "icon": "thinking",
-                "name": "maybe",
-                "text": "Being considered, but not certain"
-            },
-            {
-                "icon": "watch",
-                "name": "planned",
-                "text": "Assigned to a specific version's milestone"
-            },
-            {
-                "icon": "heavy_multiplication_x",
-                "name": "wontfix",
-                "text": "We've looked at this and unfortunately can't/won't"
-            }
-        ],
-        "name": "issue"
+      "color": "BFDADC",
+      "labels": [
+        {
+          "icon": "gemini",
+          "name": "duplicate"
+        },
+        {
+          "icon": "hourglass_flowing_sand",
+          "name": "future",
+          "text": "Planned, but not for a specific release"
+        },
+        {
+          "icon": "no_entry_sign",
+          "name": "invalid",
+          "text": "We can't act on this issue, something's wrong"
+        },
+        {
+          "icon": "thinking",
+          "name": "maybe",
+          "text": "Being considered, but not certain"
+        },
+        {
+          "icon": "watch",
+          "name": "planned",
+          "text": "Assigned to a specific version's milestone"
+        },
+        {
+          "icon": "heavy_multiplication_x",
+          "name": "wontfix",
+          "text": "We've looked at this and unfortunately can't/won't"
+        }
+      ],
+      "name": "issue"
     },
     {
-        "color": "DE26AD",
-        "labels": [
-            {
-                "icon": "wave",
-                "name": "good first issue",
-                "text": "Welcome -- this is a great place to start contributing"
-            },
-            {
-                "icon": "pray",
-                "name": "help wanted",
-                "text": "Would love for someone to assist with this"
-            },
-            {
-                "icon": "no_good",
-                "name": "yagni",
-                "text": "Will only be considered if folks express interest"
-            }
-        ],
-        "name": "meta"
+      "color": "DE26AD",
+      "labels": [
+        {
+          "icon": "wave",
+          "name": "good first issue",
+          "text": "Welcome -- this is a great place to start contributing"
+        },
+        {
+          "icon": "pray",
+          "name": "help wanted",
+          "text": "Would love for someone to assist with this"
+        },
+        {
+          "icon": "no_good",
+          "name": "yagni",
+          "text": "Will only be considered if folks express interest"
+        }
+      ],
+      "name": "meta"
     },
     {
-        "color": "EB6420",
-        "labels": [
-            {
-                "icon": "+1",
-                "name": "merge ready"
-            },
-            {
-                "icon": "round_pushpin",
-                "name": "needs changelog"
-            },
-            {
-                "icon": "page_with_curl",
-                "name": "needs docs"
-            },
-            {
-                "icon": "heavy_check_mark",
-                "name": "needs tests"
-            }
-        ],
-        "name": "pr"
+      "color": "EB6420",
+      "labels": [
+        {
+          "icon": "robot",
+          "name": "dependabot"
+        },
+        {
+          "icon": "stop_sign",
+          "name": "DO NOT MERGE"
+        },
+        {
+          "icon": "construction_worker",
+          "name": "draft"
+        },
+        {
+          "icon": "+1",
+          "name": "merge ready"
+        },
+        {
+          "icon": "round_pushpin",
+          "name": "needs changelog"
+        },
+        {
+          "icon": "page_with_curl",
+          "name": "needs docs"
+        },
+        {
+          "icon": "eyes",
+          "name": "needs review"
+        },
+        {
+          "icon": "heavy_check_mark",
+          "name": "needs tests"
+        },
+        {
+          "icon": "rocket",
+          "name": "release"
+        }
+      ],
+      "name": "pr"
     },
     {
-        "color": "FBCA04",
-        "labels": [
-            {
-                "icon": "purple_square",
-                "name": "[placeholder]",
-                "text": "Update this and create more as needed"
-            }
-        ],
-        "name": "topic"
+      "color": "FBCA04",
+      "labels": [
+        {
+          "icon": "purple_square",
+          "name": "[placeholder]",
+          "text": "Update this and create more as needed"
+        }
+      ],
+      "name": "topic"
     },
     {
-        "color": "1042CC",
-        "labels": [
-            {
-                "icon": "beetle",
-                "name": "bug",
-                "text": "Something is wrong"
-            },
-            {
-                "icon": "sparkles",
-                "name": "enhancement",
-                "text": "Something to add"
-            },
-            {
-                "icon": "wrench",
-                "name": "maintenance",
-                "text": "Something administrative/internal needs upkeep"
-            },
-            {
-                "icon": "grey_question",
-                "name": "question",
-                "text": "Something to investigate"
-            },
-            {
-                "icon": "twisted_rightwards_arrows",
-                "name": "refactor",
-                "text": "Some code needs restructuring"
-            }
-        ],
-        "name": "type"
+      "color": "1042CC",
+      "labels": [
+        {
+          "icon": "beetle",
+          "name": "bug",
+          "text": "Something is wrong"
+        },
+        {
+          "icon": "sparkles",
+          "name": "enhancement",
+          "text": "Something to add"
+        },
+        {
+          "icon": "information_source",
+          "name": "info"
+        },
+        {
+          "icon": "wrench",
+          "name": "maintenance",
+          "text": "Something administrative/internal needs upkeep"
+        },
+        {
+          "icon": "grey_question",
+          "name": "question",
+          "text": "Something to investigate"
+        },
+        {
+          "icon": "twisted_rightwards_arrows",
+          "name": "refactor",
+          "text": "Some code needs restructuring"
+        }
+      ],
+      "name": "type"
     }
-]
+  ]
+}

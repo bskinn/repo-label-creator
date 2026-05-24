@@ -1,0 +1,22 @@
+[tool.black]
+target-version = ["py313"]
+line-length = 88
+include = '''
+(
+    ^/create_labels.py$
+)
+'''
+exclude = '''
+(
+    __pycache__
+  | ^/[.]
+  | ^/env
+  | ^/.venv
+  | ^/.tox
+)
+'''
+
+[tool.isort]
+profile = "black"
+no_lines_before = ["LOCALFOLDER"]
+extend_skip = ["env", ".venv", ".tox"]

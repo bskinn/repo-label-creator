@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/bskinn/repo-label-creator/refs/heads/main/schema.json",
+  "title": "Repo Label Creator Schema",
+  "description": "Label definition JSON file",
+  "type": "object",
+  "properties": {
+    "groups": {
+      "description": "Groups of labels to define",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of the label group",
+            "type": "string",
+            "minLength": 1
+          },
+          "color": {
+            "description": "Label group color (hex RGB without leading '#')",
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{6}$"
+          },
+          "labels": {
+            "description": "Labels within the group",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "description": "Icon GitHub shortcode (no ':' fence)",
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "description": "Label name",
+                  "type": "string",
+                  "minLength": 1
+                },
+                "text": {
+                  "description": "Label tooltip text",
+                  "type": "string"
+                }
+              },
+              "required": ["icon", "name"],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          }
+        },
+        "required": ["name", "color", "labels"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["groups"]
+}
